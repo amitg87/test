@@ -1,0 +1,8 @@
+<div class="form-group">
+    <ul>
+        <li data-ng-repeat="item in foundItemsCtrl.items">
+            <span>{{item.name}}</span>
+            <input type="button" data-ng-click="foundItemsCtrl.remove({index: $index})" value="Don't want this one!">
+        </li>
+    </ul>
+</div>

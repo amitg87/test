@@ -1,0 +1,7 @@
+<ul>
+    <li data-ng-repeat="item in $ctrl.items">
+        <h5>{{item.short_name}}</h5>
+        <h5>{{item.name}}</h5>
+        <a ui-sref="items({category: item.short_name})">List</a>
+    </li>
+</ul>
